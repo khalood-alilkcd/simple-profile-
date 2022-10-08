@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.drop{
+    
+    z-index: 4;
+    background-color: transparent;
+}
+.header{
+    background-image: url('../images/overlay-bg.jpg');
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+    background-attachment: fixed;
+    text-align: center;
+}
+.head{
+    background-color: rgba(10, 19, 36, 0.863);
+    height: auto;
+    width: 100%;
+    
+}
+.content{
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
+.content h1{
+    font-size: 3.5rem;
+    
+}
+.project{
+    background-color: rgb(48, 47, 47);
+}
+.o{
+    margin-right: .3rem;
+    border-radius:50%;
+    padding: .3rem;
+    background-color: grey;
+}
+
+@media (max-width:660px){
+    .content h1{
+        font-size: 3rem;
+    }
+}

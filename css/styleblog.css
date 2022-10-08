@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.project{
+    color: rgb(201, 207, 204);
+}
+.drop{
+    
+    z-index: 4;
+    background-color: transparent;
+}
+.header{
+    background-image: url('../images/overlay-bg.jpg');
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+    background-attachment: fixed;
+    text-align: center;
+}
+.head{
+    background-color: rgba(10, 19, 36, 0.863);
+    height: auto;
+    width: 100%;
+    
+}
+.content{
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
+.content h1{
+    font-size: 3.5rem;
+    
+}
+ul{
+    position: relative;
+}
+.ul::before {
+    content: 'l';
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(44, 44, 247);
+    margin-right: 1rem;
+    position: absolute;
+    top: -.8rem;
+}
+.p::before{
+    content:'|';
+    font-size: 5rem;
+    font-weight: 300;
+    color: rgb(44, 44, 247);
+    margin-right: 1rem;
+}
+.underline{
+    width: 6rem;
+    height: 0.2em;
+    background-color: navy;
+}
+.comimg{
+    width: 20rem;
+    padding-right: 2rem;
+}
+button{
+    padding: 1rem 2rem;
+    background-color: darkblue;
+    border-radius:4rem;
+    font-size:1rem;
+    border: 1px solid #0077ff;
+    color: #fff;
+}
+button:hover{
+    border: 3px solid #fff;
+}
+.btn{
+    background-color: navy;
+    color: #fff;
+}
+h3::before{
+    content: 'l';
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(44, 44, 247);
+    margin-right: 1rem; 
+}
+ol li:hover {
+    color: rgb(117, 59, 252);
+}
+.ulic li a{
+    border-radius: 4rem;
+    background-color: blue;
+    color: #fff;
+    padding: .5rem 8rem;
+    width: auto;
+}
+
+footer{
+    background: blue;
+}

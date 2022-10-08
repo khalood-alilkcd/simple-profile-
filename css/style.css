@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.drop{
+    
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.parent{
+    position: relative;
+}
+.parent img{
+    height: 100vh;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+.item{
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+    color: #fff;
+}
+.item h1.hero-font{
+    font-size: 4.5rem;
+}
+.item h1.size{
+    font-weight: 600;
+}
+p.typeing{
+    font-size: 2.5rem;
+}
+.item p.typeing::after{
+    content: "|";
+    animation-name: typeing;
+    animation-duration: 9s;
+    animation-direction:alternate;
+    animation-timing-function: 5;
+}
+@keyframes typeing{
+    0%{
+        content: "|";
+    }
+    1%{
+        content: "|D";
+    }
+    2%{
+        content: "|De";
+    }
+    3%{
+        content: "|Des";
+    }
+    4%{
+        content: "|Desi";
+    }
+    5%{
+        content: "|Desig";
+    }
+    6%{
+        content: "|Design";
+    }
+    7%{
+        content: "|Desig";
+    }
+    8%{
+        content: "|Desi";
+    }
+    9%{
+        content: "|Des";
+    }
+    10%{
+        content: "|De";
+    }
+    11%{
+        content: "|Dev";
+    }
+    12%{
+        content: "|Deve";
+    }
+    13%{
+        content: "|Devel";
+    }
+    14%{
+        content: "|Develo";
+    }
+    15%{
+        content: "|Develop";
+    }
+    16%{
+        content: "|Develope";
+    }
+    17%{
+        content: "|Developer";
+    }
+    18%{
+        content: "|Develope";
+    }
+    19%{
+        content: "|Develop";
+    }
+    20%{
+        content: "|Develo";
+    }
+    21%{
+        content: "|Devel";
+    }
+    22%{
+        content: "|Deve";
+    }
+    23%{
+        content: "|Dev";
+    }
+    24%{
+        content: "|De";
+    }
+    25%{
+        content: "|D";
+    }
+    26%{
+        content: "|";
+    }
+    27%{
+        content: "|F";
+    }
+    28%{
+        content: "|Fr";
+    }
+    30%{
+        content: "|Fre";
+    }
+    31%{
+        content: "|Free";
+    }
+    32%{
+        content: "|Freel";
+    }
+    33%{
+        content: "|Freela";
+    }
+    34%{
+        content: "|Freelan";
+    }
+    35%{
+        content: "|Freelanc";
+    }
+    36%{
+        content: "|Freelance";
+    }
+    37%{
+        content: "|Freelancer";
+    }
+    38%{
+        content: "|Freelance";
+    }
+    39%{
+        content: "|Freelanc";
+    }
+    40%{
+        content: "|Freelan";
+    }
+    41%{
+        content: "|Freela";
+    }
+    42%{
+        content: "|Freel";
+    }
+    43%{
+        content: "|Free";
+    }
+    44%{
+        content: "|Fre";
+    }
+    45%{
+        content: "|Fr";
+    }
+    46%{
+        content: "|F";
+    }
+    47%{
+        content: "|";
+    }
+}
+
+.Aboutme , .Blog{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+.degree{
+    width: 100%;
+    height: .67rem;
+    background-color: darkblue;
+    position: relative;
+}
+.degree .degreeprenst1{
+    width: 85%;
+    height: .67rem;
+    background-color: darkcyan;
+    position: absolute;
+    z-index: 2;
+}
+.degree .degreeprenst2{
+    width: 75%;
+    height: .67rem;
+    background-color: darkcyan;
+    position: absolute;
+    z-index: 2;
+}
+.degree .degreeprenst3{
+    width: 50%;
+    height: .67rem;
+    background-color: darkcyan;
+    position: absolute;
+    z-index: 2;
+}.degree .degreeprenst4{
+    width: 90%;
+    height: .67rem;
+    background-color: darkcyan;
+    position: absolute;
+    z-index: 2;
+}
+.col-sm-4{
+    text-align: center;
+    border-radius: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.round{
+    padding: 2rem;
+    border: 10px solid rgb(52, 52, 250);
+    border-radius: 50%;
+    width: 9rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.round i{
+    font-size: 3rem;
+}
+.line{
+    width: 3rem;
+    height: 4px;
+    background-color: darkcyan;
+    margin: auto;
+}
+.service{
+text-align: center;
+}
+.service:hover .round{
+    background-color: rgb(52, 52, 250);
+    border-color: thistle;
+}
+.service .round:hover{
+    background-color: darkblue;
+    
+    
+}
+.part1{
+    background-image: url(../images/post-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    
+    text-align: center;
+}
+.part2{
+    background-color: rgba(0, 0, 255, 0.829);
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.rndbor{
+    padding: .5rem;
+    border: .7rem solid #ddffff;
+    border-radius: 50%;
+    font-size: 2rem;
+    width: 6rem;
+   margin: auto;
+
+}
+.portfolio{
+    background-color: rgb(39, 38, 38);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.header{
+    margin: auto;
+    text-align: center;
+}
+.div{
+    margin: auto;
+   
+    width: 3rem;
+    height: 5px;
+    background-color: rgb(22, 19, 199);
+
+}
+.des{
+    background-color: transparent;
+}
+.col-md-4 .icon{
+    font-size: 40px;
+    color: rgb(153, 0, 255);
+    text-align: end;
+}
+
+.imga{
+    overflow: hidden;
+    transition: transform;
+}
+.tab:hover img{
+    transform: scale(1.2);
+}
+/*
+parallix scroll hidden background img
+*/
+.li{
+    background-image: url('../images/overlay-bg.jpg');
+    min-height: auto;
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+}
+.id{
+    background-color: rgba(31, 31, 247, 0.781);
+    width: 100%;
+    height: 600px;
+}
+.ld{
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+}
+.ld img{
+    border-radius:50%;
+    padding-bottom: 2rem;
+}
+.blogcont{
+    position: relative;
+    border: 1px solid rgb(48, 48, 48);
+}
+.small {
+    color: #fff;
+    position: absolute;
+    top: 265px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: darkblue;
+    padding: .2rem .8rem;
+}
+a{
+    color: #fff;
+}
+.pad h4 a:hover{
+    color: rgb(128, 17, 255);
+}
+.bor{
+    border-radius:50%;
+    width: 2rem;
+    
+}
+.blogcont{
+    background-color:rgb(41, 40, 40) ;
+}
+.blogcont h6, .blogcont i.fal{
+    display: flex;
+    align-items: center;
+}
+.b{
+    border: 1px solid rgb(48, 48, 48);
+}
+
+form{
+    background-image: url('../images/overlay-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+}
+.form{
+    background-color: rgba(31, 31, 247, 0.781);
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+form .div{
+    width: 5rem;
+    height: .2rem;
+    background-color: blue;
+}
+
+button{
+    padding: .5rem .9rem;
+    background-color: darkblue;
+    border-radius:4rem;
+    font-size:1.5rem;
+    border: 0;
+    color: #fff;
+}
+input{
+    margin-bottom: 2rem;
+    
+}
+li{
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+.rndicon{
+    padding: .4rem;
+    border: .2rem solid rgb(71, 71, 253);
+    border-radius: 50%;
+    font-size: 1rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.rndicon:hover{
+    background: blue;
+    border-color: #fff;
+}
+
+footer{
+    background: blue;
+}
